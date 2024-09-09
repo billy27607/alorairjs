@@ -17,7 +17,8 @@ server_socket.listen(1)
 conn, addr = server_socket.accept()
 
 # Configure logging
-logging.basicConfig(filename='server_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+logging = logging.getLogger()
 logging.info(f"Connection from: {addr}")
 
 def send_can_to_tcp():

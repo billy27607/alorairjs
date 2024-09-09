@@ -1,0 +1,96 @@
+2024-09-09 14:59:56,899 - Connection from: ('192.168.100.175', 39946)
+2024-09-09 14:59:57,227 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 14:59:57,235 - Sent CAN message: Timestamp: 1725908397.233582        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 14:59:59,287 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 14:59:59,298 - Sent CAN message: Timestamp: 1725908399.297607        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:01,355 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:01,370 - Sent CAN message: Timestamp: 1725908401.369399        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:03,444 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:03,471 - Sent CAN message: Timestamp: 1725908403.470004        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:05,527 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:05,541 - Sent CAN message: Timestamp: 1725908405.540777        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:07,599 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:07,606 - Sent CAN message: Timestamp: 1725908407.604975        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:09,663 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:09,683 - Sent CAN message: Timestamp: 1725908409.682488        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:11,768 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:11,784 - Sent CAN message: Timestamp: 1725908411.783057        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:13,841 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:13,854 - Sent CAN message: Timestamp: 1725908413.853725        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:15,925 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:15,955 - Sent CAN message: Timestamp: 1725908415.954382        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:18,004 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:18,024 - Sent CAN message: Timestamp: 1725908418.024123        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:20,083 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:20,095 - Sent CAN message: Timestamp: 1725908420.094875        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:22,148 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:22,166 - Sent CAN message: Timestamp: 1725908422.165732        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:24,243 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:00:24,267 - Sent CAN message: Timestamp: 1725908424.266599        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:00:24,410 - Server interrupted by user
+2024-09-09 15:00:24,410 - Server connection closed
+2024-09-09 15:00:26,320 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:03,289 - Connection from: ('192.168.100.175', 45426)
+2024-09-09 15:03:04,200 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:04,221 - Sent CAN message: Timestamp: 1725908584.219840        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:06,275 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:06,298 - Sent CAN message: Timestamp: 1725908586.297131        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:08,382 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:08,388 - Sent CAN message: Timestamp: 1725908588.387911        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:10,387 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:10,394 - Sent CAN message: Timestamp: 1725908590.393256        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:12,392 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:12,399 - Sent CAN message: Timestamp: 1725908592.398175        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:14,404 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:14,410 - Sent CAN message: Timestamp: 1725908594.409813        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:16,404 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:16,411 - Sent CAN message: Timestamp: 1725908596.410612        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:18,413 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:18,420 - Sent CAN message: Timestamp: 1725908598.419616        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:20,422 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:20,450 - Sent CAN message: Timestamp: 1725908600.449869        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:22,425 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:22,432 - Sent CAN message: Timestamp: 1725908602.431557        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:24,432 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:24,439 - Sent CAN message: Timestamp: 1725908604.438771        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:26,440 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:26,447 - Sent CAN message: Timestamp: 1725908606.446316        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:28,449 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:28,462 - Sent CAN message: Timestamp: 1725908608.461915        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:30,455 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:30,482 - Sent CAN message: Timestamp: 1725908610.481715        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:32,460 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:32,482 - Sent CAN message: Timestamp: 1725908612.481587        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:34,473 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:34,480 - Sent CAN message: Timestamp: 1725908614.479254        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:36,475 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:36,503 - Sent CAN message: Timestamp: 1725908616.502406        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:38,485 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:38,494 - Sent CAN message: Timestamp: 1725908618.493212        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:40,490 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:40,497 - Sent CAN message: Timestamp: 1725908620.496852        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:42,497 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:42,514 - Sent CAN message: Timestamp: 1725908622.513267        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:44,508 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:44,515 - Sent CAN message: Timestamp: 1725908624.514562        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:46,510 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:46,534 - Sent CAN message: Timestamp: 1725908626.533937        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:48,520 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:48,527 - Sent CAN message: Timestamp: 1725908628.526619        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:50,525 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:50,531 - Sent CAN message: Timestamp: 1725908630.530812        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:52,530 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:52,536 - Sent CAN message: Timestamp: 1725908632.535640        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:54,539 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:54,547 - Sent CAN message: Timestamp: 1725908634.546478        ID: 0123    S Rx                DL:  8    33 37 00 17 15 02 00 20     Channel: can0
+2024-09-09 15:03:56,548 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:56,555 - Sent CAN message: Timestamp: 1725908636.554184        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:03:58,556 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:03:58,563 - Sent CAN message: Timestamp: 1725908638.562764        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:04:00,563 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:04:00,590 - Sent CAN message: Timestamp: 1725908640.589401        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:04:02,571 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00
+2024-09-09 15:04:02,577 - Sent CAN message: Timestamp: 1725908642.577055        ID: 0123    S Rx                DL:  8    33 37 00 17 16 02 00 20     Channel: can0
+2024-09-09 15:04:03,514 - Server interrupted by user
+2024-09-09 15:04:03,514 - Server connection closed
+2024-09-09 15:04:04,573 - Received TCP message: Timestamp:        0.000000        ID: 0123    S Rx                DL:  8    01 00 00 00 00 00 00 00

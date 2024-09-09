@@ -15,7 +15,8 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((tcp_ip, tcp_port))
 
 # Configure logging
-logging.basicConfig(filename='client_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+logger = logging.getLogger()
 logging.info(f"Connected to server at: {tcp_ip}:{tcp_port}")
 
 def send_can_to_tcp():
