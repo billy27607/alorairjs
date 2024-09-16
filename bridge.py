@@ -17,7 +17,7 @@ server_socket.bind((tcp_ip, tcp_port))
 server_socket.listen(1)
 
 # Configure TCP client
-client_tcp_ip = '192.168.101.16'  # IP address of the server (Raspberry Pi 1)
+client_tcp_ip = '192.168.100.175'  # IP address of the server (Raspberry Pi 1)
 client_tcp_port = 5005
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -74,20 +74,32 @@ def client_thread():
 
     def send_can_to_tcp():
         while True:
-            msg = bus.recv(timeout=1.0)
-            if msg:
-                data = struct.pack('I8s', msg.arbitration_id, msg.data)
-                client_socket.send(data)
-                logging.info(f"Sent CAN message: {msg}")
+            try:
+                msg = bus.recv(timeout=1.0)
+                if msg:
+                    data = struct.pack('I8s', msg.arbitration_id, msg.data)
+                    client_socket.send(data)
+                    logging.info(f"Sent CAN message: {msg}")
+            except (BrokenPipeError, ConnectionResetError):
+                logging.info("Connection lost, attempting to reconnect...")
+                client_socket.close()
+                client_thread()
+                break
 
     def recv_tcp_to_can():
         while True:
-            data = client_socket.recv(12)
-            if data:
-                arbitration_id, msg_data = struct.unpack('I8s', data)
-                msg = can.Message(arbitration_id=arbitration_id, data=msg_data, is_extended_id=False)
-                bus.send(msg)
-                logging.info(f"Received TCP message: {msg}")
+            try:
+                data = client_socket.recv(12)
+                if data:
+                    arbitration_id, msg_data = struct.unpack('I8s', data)
+                    msg = can.Message(arbitration_id=arbitration_id, data=msg_data, is_extended_id=False)
+                    bus.send(msg)
+                    logging.info(f"Received TCP message: {msg}")
+            except (BrokenPipeError, ConnectionResetError):
+                logging.info("Connection lost, attempting to reconnect...")
+                client_socket.close()
+                client_thread()
+                break
 
     try:
         send_thread = threading.Thread(target=send_can_to_tcp)
