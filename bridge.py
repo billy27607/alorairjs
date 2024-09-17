@@ -4,6 +4,21 @@ import struct
 import threading
 import logging
 import time
+import os
+
+# make sure the bus is up
+print('Bringing up CAN0...')
+os.system("sudo /sbin/ip link set can0 up type can bitrate 500000")
+time.sleep(0.1)
+
+try:
+    bus = can.interface.Bus(channel='can0', bustype='socketcan_native')
+except OSError:
+    print('Cannot find PiCAN board.')
+    exit()
+
+print('Ready to receive messages')
+
 
 # Configure CAN interface
 can_interface = 'can0'
